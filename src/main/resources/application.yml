@@ -28,3 +28,7 @@ spring:
     url: jdbc:mysql://instagram-db.cggfqax3smkr.ap-northeast-2.rds.amazonaws.com:3306/myredis
     username: admin
     password: password
+  data:
+    redis:
+      host: instagram-cache-server.ucfsjr.ng.0001.apn2.cache.amazonaws.com
+      port: 6379
